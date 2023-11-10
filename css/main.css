@@ -89,6 +89,30 @@ svg {
   font-size: 1.5rem;
 }
 
+.schedule-time{
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.schedule-subject{
+  text-align: center;
+  font-weight: 700;
+}
+
+.schedule-name{
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.schedule-div{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 @media (min-width: 768px) {
   #section {
     flex-flow: row nowrap;
@@ -101,5 +125,9 @@ svg {
   #info {
     max-width: 50%;
     align-self: flex-start;
+  }
+
+  .schedule-div{
+    width: 50%
   }
 }
