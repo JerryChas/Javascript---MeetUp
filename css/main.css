@@ -1,92 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-:root{
-    --clr-one: #C01816;
-    --clr-two: #DA922F;
-    --clr-three: #C7D864;
-    --clr-four: #A0DA88;
-    --clr-five: #AADFB9;
-    --clr-six: #C9E6E2;
-
+:root {
+  --clr-one: #c01816;
+  --clr-two: #da922f;
+  --clr-three: #c7d864;
+  --clr-four: #a0da88;
+  --clr-five: #aadfb9;
+  --clr-six: #c9e6e2;
 }
 
-#headline{
-    font-size: 2rem;
-    margin: 2rem;
+#headline {
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+#section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#info {
+  margin: 1rem;
+  max-width: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#info-head {
+  font-size: 1.5rem;
+}
+
+.lecture-img {
+  background-image: url("../img/lecture.jpg");
+  width: 90%;
+  height: 16rem;
+  background-position: bottom;
+  border-radius: 20px;
+}
+
+#mapcontainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#location {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.map {
+  max-width: 90%;
+  max-height: 20%;
+  border-radius: 20px;
+}
+
+svg {
+  margin-left: 0.8rem;
+}
+
+#schedule,
+#speakers {
+  margin: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#schedule-head {
+  font-size: 1.5rem;
+}
+
+#speakers-head {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #section {
+    flex-flow: row nowrap;
+  }
+  #info-head {
     text-align: center;
-}
+    margin-bottom: 2rem;
+  }
 
-#section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#info{
-    margin: 1rem;
-    max-width: 90%;
-}
-
-#info-head{
-    font-size: 1.5rem;
-}
-
-#mapcontainer{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-}
-
-#location{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.map{
-    max-width: 90%;
-    max-height: 20%;
-    border-radius: 20px;
-}
-
-svg{
-    margin-left: 0.8rem;
-}
-
-#schedule, #speakers{
-    margin: 1rem;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-#schedule-head{
-    font-size: 1.5rem;
-}
-
-#speakers-head{
-    font-size: 1.5rem;
-}
-
-@media (min-width: 768px){
-    #section{
-        flex-flow: row nowrap;
-    }
-    #info-head{
-        text-align: center;
-    }
-
-    #info{
-        max-width: 50%;
-    }
+  #info {
+    max-width: 50%;
+    align-self: flex-start;
+  }
 }
