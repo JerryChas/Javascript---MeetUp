@@ -89,6 +89,24 @@ svg {
   font-size: 1.5rem;
 }
 
+.speaker-div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.speaker-name {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.speaker-subject {
+    width: 90vw;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
   #section {
     flex-flow: row nowrap;
@@ -101,5 +119,9 @@ svg {
   #info {
     max-width: 50%;
     align-self: flex-start;
+  }
+
+  .speaker-div {
+    width: 50%;
   }
 }
