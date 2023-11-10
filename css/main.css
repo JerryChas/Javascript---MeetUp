@@ -131,7 +131,7 @@ svg {
 }
 
 .speaker-subject {
-    width: 90vw;
+    width: max-content;
     text-align: center;
 }
 
