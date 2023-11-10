@@ -14,6 +14,10 @@
   --clr-six: #c9e6e2;
 }
 
+body{
+  background-color: var(--clr-six);
+}
+
 #headline {
   font-size: 2rem;
   margin: 2rem;
@@ -118,7 +122,7 @@ svg {
     align-items: center;
     justify-content: center;
     max-width: 50%;
-    height: 5rem;
+    height: 7rem;
 }
 
 .speaker-name {
@@ -136,6 +140,7 @@ svg {
   width: 90%;
   height: 22rem;
   border-radius: 20px;
+  margin-bottom: 1rem;
 }
 
 .img2{
@@ -144,6 +149,7 @@ svg {
   width: 90%;
   height: 22rem;
   border-radius: 20px;
+  margin: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -166,7 +172,7 @@ svg {
 
   .speaker-div {
     width: 40vw;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
   }
 
   #section2{
@@ -178,6 +184,7 @@ svg {
 
   .contain{
     display: flex;
+    align-self: flex-start;
     flex-flow: column nowrap;
     align-items: start;
     justify-content: center;
@@ -191,5 +198,6 @@ svg {
 
   .img1, .img2{
     margin-left: 1.5rem;
+    margin-bottom: 0rem;
   }
 }
