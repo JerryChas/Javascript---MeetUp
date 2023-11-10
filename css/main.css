@@ -118,6 +118,7 @@ svg {
     align-items: center;
     justify-content: center;
     max-width: 50%;
+    height: 5rem;
 }
 
 .speaker-name {
@@ -128,6 +129,21 @@ svg {
 .speaker-subject {
     width: 90vw;
     text-align: center;
+}
+
+.img1{
+  background-image: url('../img/coding.jpg');
+  width: 90%;
+  height: 22rem;
+  border-radius: 20px;
+}
+
+.img2{
+  background-image: url('../img/snacks.jpg');
+  background-size: cover;
+  width: 90%;
+  height: 22rem;
+  border-radius: 20px;
 }
 
 @media (min-width: 768px) {
@@ -144,12 +160,36 @@ svg {
     align-self: flex-start;
   }
 
-
   .schedule-div{
-    width: 50%'
+    width: 40vw
   }
 
   .speaker-div {
-    width: 50%;
+    width: 40vw;
+    margin-left: 1.5rem;
+  }
+
+  #section2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contain{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  #section2{
+    align-self: flex-start;
+  }
+
+  .img1, .img2{
+    margin-left: 1.5rem;
   }
 }
