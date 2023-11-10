@@ -1,0 +1,20 @@
+[
+  {
+    "Subject": "How to write JSON and sing at the same time",
+    "Time": "12.00",
+    "Speaker": "Json Derulo",
+    "Text": "JSON är ett format för att strukturera och överföra data mellan olika program och system. JSON står för JavaScript Object Notation och är baserat på JavaScripts syntax för objekt och arrayer. JSON är lättläst och enkelt att skriva, både för människor och maskiner. Men hur kan man skriva JSON och sjunga samtidigt? Sjung medan du skriver JSON-kod. Det kan vara vilken sång som helst, men helst en som har en tydlig rytm och melodi. Du kan till exempel sjunga en barnsång, en poplåt eller en rap. Det viktiga är att du sjunger med glädje och entusiasm. Sjung högt eller lågt, snabbt eller långsamt, men försök att hålla takten och tonen. Sjung inte bara orden, utan också klammerparenteserna, kommatecknen och citationstecknen. Det hjälper dig att komma ihåg syntaxen och att skriva JSON-kod på ett roligt sätt."
+  },
+  {
+    "Subject": "How to avoid infinite loops",
+    "Time": "14.00",
+    "Speaker": "Jovi Script",
+    "Text": "Oändliga loopar är ett vanligt problem för många javascript-programmerare. De kan orsaka att din webbsida fryser, din webbläsare kraschar eller din dator börjar ryka. Ingen vill hamna i en sådan situation, så hur kan man undvika oändliga loopar i javascript? Det finns tre huvudsakliga typer av loopar i javascript: for-loopar, while-loopar och do-while-loopar. Varje loop har ett villkor som avgör om loopen ska fortsätta eller avslutas. Om villkoret alltid är sant, kommer loopen att köras i evighet, och du har skapat en oändlig loop. För att undvika oändliga loopar, måste du se till att ditt villkor kan bli falskt någon gång. Det kan du göra genom att använda en räknare, en timer, en break-sats eller något annat som kan ändra villkorets värde. "
+  },
+  {
+    "Subject": "Why you shouldn't use columns for layouts",
+    "Time": "16.00",
+    "Speaker": "Cee Essess",
+    "Text": "Kolumner är ett vanligt sätt att dela upp en webbsida i olika sektioner, till exempel en meny, en huvudinnehåll och en sidopanel. Men att använda kolumner för layouter är inte en bra idé. Kolumner är fasta och anpassar sig inte efter skärmstorleken eller enheten. Det betyder att din webbsida kan se konstig ut på mobiler, surfplattor eller stora skärmar. Till exempel kan din meny ta upp för mycket plats, din huvudinnehåll bli för smal eller din sidopanel försvinna helt. Kolumner är inte menade för att skapa layouter, utan för att visa tabellformad data. Att använda kolumner för layouter bryter mot HTML:s syfte, som är att beskriva innehållets struktur och mening. Kolumner är ett dåligt val för att skapa layouter på webben. De är inte responsiva, inte semantiska och inte flexibla. De kan göra din webbsida ful, otydlig och svårhanterlig."
+  }
+]
