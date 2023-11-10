@@ -112,6 +112,23 @@ svg {
   justify-content: center;
   gap: 0.5rem;
 }
+.speaker-div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.speaker-name {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.speaker-subject {
+    width: 90vw;
+    text-align: center;
+}
 
 @media (min-width: 768px) {
   #section {
@@ -127,7 +144,12 @@ svg {
     align-self: flex-start;
   }
 
+
   .schedule-div{
-    width: 50%
+    width: 50%'
+  }
+
+  .speaker-div {
+    width: 50%;
   }
 }
